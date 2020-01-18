@@ -1,6 +1,6 @@
 Name:           perl-IO-Tty
 Version:        1.10
-Release:        11%{?dist}
+Release:        9%{?dist}
 Summary:        Perl interface to pseudo tty's
 License:        (GPL+ or Artistic) and BSD
 Group:          Development/Libraries
@@ -43,12 +43,6 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.10-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.10-10
-- Mass rebuild 2013-12-27
-
 * Mon Nov 26 2012 Petr Šabata <contyk@redhat.com> - 1.10-9
 - Buildrequire perl(Cwd), simplify filters
 
